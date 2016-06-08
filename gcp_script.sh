@@ -27,4 +27,6 @@ wget https://github.com/google/cups-connector/releases/download/2016.01.02/gcp-c
 echo "Extracting..."
 sleep 2
 tar -xzvf gcp-cups-connector-rpi-jessie-2016.01.02.tar.gz
+echo "Installing Vim"
+sudo apt-get install vim -y
 echo "Done..."
